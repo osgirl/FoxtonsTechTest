@@ -14,7 +14,6 @@ class Album():
             userId = items['userId']
             if userId == 2:
                 count = count + 1
-
         print("User 2 has {} albums.".format(count))
 
     def count_users(self):
@@ -33,7 +32,6 @@ class Album():
             title = items['title']
             album_List.append(title)
         print(max(album_List,key=len), "is the longest album name.")
-
 
 if __name__ == '__main__':
     album = Album()
